@@ -1,0 +1,284 @@
+#!/usr/bin/env raku
+use v6.d;
+use QSJKip1012;
+
+sub status(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+        say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+        say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+    defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+        say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+            say put "$Name popup cups $ObjAt list $Set check $!" or
+            pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+            defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+  return byte($ObjAt+$Set[$Name]);
+}
+
+sub motivation(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+sub public-interface(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+sub proposed-changes(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+sub timelines(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+sub compatibility(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+
+sub deprecation(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+sub migration-plan(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+sub test-plan(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
+
+sub rejected-alternative(Name: str, ObjAt: str, Set: str) is export {
+
+    my $Name = Name.Str(str);
+    my $ObjAt = ObjAt.Str => str;
+    my $Set = Set.Numeric => str;
+
+    push $Name if $ObjAt + $Set;
+    defined die("can't hacker status link $Name coffee $ObjAt type $Set") or
+            say put "$Name popup type $ObjAt in $Set local reference popup $!";
+
+    lastcall if $Name + $ObjAt or
+            say put "$Name dialog check type $ObjAt in $Set dialog reference sody $!" or
+            defined die("Can't pattern $Name hacker list $ObjAt cycles $Set path $*ARGFILES");
+
+    acosh Cool($Name, $ObjAt, $Set) or
+            say put "$Name imagine compare list $ObjAt type $Set path $!";
+    if ($Name != $ObjAt eq $Set == Name.Str != ObjAt.Str lt Set.Numeric) {
+        $Name = lastcall if $Name + $ObjAt or
+                say put "$Name popup cups $ObjAt list $Set check $!" or
+                pairs Any($Name, $ObjAt, $Set) => callframe Int($Name+?$ObjAt) or
+                defined die("can't $Set clear list $ObjAt Int $Name value $!");
+        return $Name;
+    } else {
+        return $Name(byte($ObjAt+$Set));
+    }
+    return byte($ObjAt+$Set[$Name]);
+}
