@@ -37,30 +37,13 @@ Please keep the discussion on the mailing list rather than commenting on the wik
 
 # Motivation
 
-Kafka
-3.7.x was meant to be the last minor release within the 3.x series
-followed then by a 4.0 release where Apache Zookeeper will be removed
-from the code base.
+Kafka 3.7.x was meant to be the last minor release within the 3.x series followed then by a 4.0 release where Apache Zookeeper will be removed from the code base.
 
-During the "Road to Kafka 4.0" discussion in the mailing list (<https://lists.apache.org/thread/mxltb2k5y17q89vg0k9492dfc8z66jw1>),
-it became apparent that there are some features that are not yet
-present in KRaft that the community is relying on to successfully
-operate and run Kafka. Thus, making it either hard or not feasible for a
-subset of the community to move to KRaft (or at least fully test KRaft)
-before Zookeeper's complete removal in 4.0.0. Some community members
-might only be able to try KRaft when Zookeeper is gone, leaving only a
-downgrade as a way out path if something doesn't work as expected
-(instead of config switching)
+During the "Road to Kafka 4.0" discussion in the mailing list (<https://lists.apache.org/thread/mxltb2k5y17q89vg0k9492dfc8z66jw1>), it became apparent that there are some features that are not yet present in KRaft that the community is relying on to successfully operate and run Kafka. Thus, making it either hard or not feasible for a subset of the community to move to KRaft (or at least fully test KRaft) before Zookeeper's complete removal in 4.0.0. Some community members might only be able to try KRaft when Zookeeper is gone, leaving only a downgrade as a way out path if something doesn't work as expected (instead of config switching)
 
-This KIP proposes to create at least
-one more minor version within the 3.x series ,3.8.0 release, and the
-scope of this KIP is to define which are the respective KIPs (mostly
-around KRaft) that should be part of it so the community can safely
-migrate to a potential 4.0 version.
+This KIP proposes to create at least one more minor version within the 3.x series ,3.8.0 release, and the scope of this KIP is to define which are the respective KIPs (mostly around KRaft) that should be part of it so the community can safely migrate to a potential 4.0 version.
 
-This way community members can
-safely test KRaft without the need to perform downgrades or manual
-workarounds, as ZooKeeper is meant to be removed in 4.0.
+This way community members can safely test KRaft without the need to perform downgrades or manual workarounds, as ZooKeeper is meant to be removed in 4.0.
 
 # Public Interfaces
 
@@ -79,26 +62,15 @@ We propose the following:\
 
 -   **3.8.x would be the last minor release within the 3.x series.**
 
-This
-assumes all must have features / KIPs are implemented in 3.8. Otherwise
-we would need to inject a 3.9 version in between 3.8 and 4.0
+This assumes all must have features / KIPs are implemented in 3.8. Otherwise we would need to inject a 3.9 version in between 3.8 and 4.0
 
 ## Scope
 
-The
-following KIPs were identified by the community as blockers items that
-would need to be present in a 3.x release before moving to a potential
-4.0 release.
+The following KIPs were identified by the community as blockers items that would need to be present in a 3.x release before moving to a potential 4.0 release.
 
-We would aim to have all these in a 3.8
-release. However, in the case that this is not possible and some of
-these blockers are still not resolved, we should then create a new minor
-version on the 3.x series (namely 3.9).\
+We would aim to have all these in a 3.8 release. However, in the case that this is not possible and some of these blockers are still not resolved, we should then create a new minor version on the 3.x series (namely 3.9).\
 
-The
-following list is not an exhaustive list of new features 3.8 would
-contain (this release will most probably contain other features and
-KIPs).
+The following list is not an exhaustive list of new features 3.8 would contain (this release will most probably contain other features and KIPs).
 
 |                                                                                                                                                  |                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
@@ -113,9 +85,7 @@ Release 3.8.0: 3 to 4 months after 3.7 (or earlier if all required KIPs are alre
 
 Release 4.0.0: 3 to 4 months after 3.8 branch is created
 
-This
-assumes all must have features / KIPs are implemented in 3.8. Otherwise
-we would need to inject a 3.9 version in between 3.8 and 4.0
+This assumes all must have features / KIPs are implemented in 3.8. Otherwise we would need to inject a 3.9 version in between 3.8 and 4.0
 
 # Compatibility, Deprecation, and Migration Plan
 
@@ -123,12 +93,7 @@ Not relevant for this KIP
 
 # Test Plan
 
-This
-release will follow the same testing plan as usual, but we encourage
-community members who haven't migrated yet to KRaft, to test the Release
-Candidates (or even specific trunk builds) in order to detect as many
-potential problems with KRaft when used under these, potentially, new
-scenarios.*\
+This release will follow the same testing plan as usual, but we encourage community members who haven't migrated yet to KRaft, to test the Release Candidates (or even specific trunk builds) in order to detect as many potential problems with KRaft when used under these, potentially, new scenarios.*\
 *
 
 # Rejected Alternatives
